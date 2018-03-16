@@ -27,18 +27,18 @@ public class Main extends Application
     	
     	BorderPane bpMenu = new BorderPane();
 	 	
-	 	Label lblTitle = new Label("Monster Hunter World : Player Support Project");
-	 	VBox vbTitle = new VBox(lblTitle);
-	 	vbTitle.setAlignment(Pos.CENTER);
-	 	vbTitle.setPadding(new Insets(10, 0, 10, 0));
-	 	vbTitle.setId("label-vbox");
+	Label lblTitle = new Label("Monster Hunter World : Player Support Project");
+	VBox vbTitle = new VBox(lblTitle);
+	vbTitle.setAlignment(Pos.CENTER);
+	vbTitle.setPadding(new Insets(10, 0, 10, 0));
+	vbTitle.setId("label-vbox");
 	 	
-	 	lblTitle.setTextAlignment(TextAlignment.CENTER);
-	 	lblTitle.setWrapText(true);
-	 	lblTitle.setId("bold-label");
+	lblTitle.setTextAlignment(TextAlignment.CENTER);
+	lblTitle.setWrapText(true);
+	lblTitle.setId("bold-label");
 	 	
-	 	GridPane gpThings = new GridPane();
-		VBox vbButtons = new VBox(3);
+	GridPane gpThings = new GridPane();
+	VBox vbButtons = new VBox(3);
 
         Button btItem = new Button("Items");
         GridPane.setConstraints(btItem, 1, 0);
@@ -64,8 +64,8 @@ public class Main extends Application
         
         vbButtons.getChildren().addAll(btItem, btWpns, btArmr, btMons, btQsts);
         
-	 	bpMenu.setTop(vbTitle);
-	 	bpMenu.setLeft(vbButtons);
+	bpMenu.setTop(vbTitle);
+	bpMenu.setLeft(vbButtons);
   
         Scene sceneHomePage = new Scene(bpMenu, 600, 600);
         primaryStage.setMinWidth(200);
@@ -76,33 +76,3 @@ public class Main extends Application
     }
 }
 
-/*
-  		GridPane gpHomePage = new GridPane();
-		VBox vbLinks = new VBox(0);
-        vbLinks.setMinWidth(20);
-        vbLinks.setMinHeight(200);
-
-        GridPane.setConstraints(lblTitle, 0, 0);
-
-        Button btItem = new Button("Items");
-        GridPane.setConstraints(btItem, 0, 1);
-        
-        Button btWpns = new Button("Weapons");
-        GridPane.setConstraints(btWpns, 0, 2);
-        
-        Button btArmr = new Button("Armor");
-        GridPane.setConstraints(btArmr, 0, 3);
-        
-        Button btMons = new Button("Monsters");
-        GridPane.setConstraints(btMons, 0, 4);
-        
-        Button btQsts = new Button("Quests");
-        GridPane.setConstraints(btQsts, 0, 5);
-        
-        btItem.setId("ass-balls");
-        vbLinks.getChildren().addAll(lblTitle, btItem, btWpns, btArmr, btMons, btQsts);
-        gpHomePage.setGridLinesVisible(true);
-        gpHomePage.add(vbLinks, 0, 0);
-        GridPane.setRowSpan(vbLinks, 6);
-
-*/
