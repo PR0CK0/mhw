@@ -28,9 +28,9 @@ public class Connect
 	
 	// Bad idea to store this stuff openly... must use a .properties file if it is 
 	// desired to make this application publishable.
-	private String url = "jdbc:mysql://sql9.freemysqlhosting.net:3306/sql9227664?autoReconnect=true&useSSL=false";
-	private String username = "sql9227664";
-	private String password = "zrZpDLQEec";
+	private String url = "jdbc:mysql://somethingGoesHereButIWon'tTellYou?autoReconnect=true&useSSL=false";
+	private String username = "nope";
+	private String password = "not tellin you";
 
 	/**
 	 * Default constructor.
