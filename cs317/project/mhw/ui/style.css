@@ -1,0 +1,248 @@
+/* root */
+.root {
+    -fx-background-color: #383838;
+}
+
+
+
+/* vbox */
+#vbox-item {
+	-fx-border-color: #2B2B2B;
+	-fx-background-color: #2B2B2B;
+	-fx-border: #2B2B2B;
+	-fx-background: #2B2B2B;
+}
+
+#vbox-select {
+	-fx-border-color: #2B2B2B;
+	-fx-background-color: #2B2B2B;
+	-fx-border: #2B2B2B;
+	-fx-background: #2B2B2B;
+}
+
+
+
+/* combobox */
+ComboBox {
+	-fx-font-family: Arial; 
+	-fx-border-color: #2B2B2B;
+	-fx-background-color: #2B2B2B;
+	-fx-background-radius: 0,0,0,0;
+}
+
+ComboBox:hover {
+	-fx-effect: dropshadow(gaussian, #000000, 10, 0, 2, 2);
+}
+
+/* styling specific elements of combobox */
+ComboBox .list-cell:even
+{
+    -fx-background-color: #7E7E7E;
+}
+ComboBox .list-cell:odd
+{
+    -fx-background-color: #8E8E8E;
+}
+
+
+
+/* textfield */
+TextField {
+	-fx-background-radius: 0,0,0,0;
+	-fx-background-color: #F3F3F3;
+	-fx-font-size: 1.1em;	
+}
+
+TextField:hover {
+    -fx-effect: dropshadow(gaussian, #000000, 10, 0, 2, 2);
+}
+
+
+
+/* tableview */
+TableView {
+	-fx-font-family: Arial; 
+	-fx-font-size: 1.1em; 
+	-fx-background-color: #383838;
+	-fx-border: #383838;
+	
+	-fx-table-cell-border-color: #2B2B2B;
+}
+
+/* styling specific elements of tableview */
+TableView .column-header-background{
+    -fx-background-color: #5E5E5E;
+}
+
+TableView .column-header-background .label{
+    -fx-text-fill: #000000;
+}
+
+.table-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #2B2B2B;
+    -fx-text-fill: #FFFFFF;
+}
+
+/* dark, light, dark, light... */
+.table-row-cell:even {
+    -fx-text-fill: #000000;
+    -fx-background-color: #7E7E7E;
+}
+
+.table-row-cell:odd {
+    -fx-text-fill: #000000;
+    -fx-background-color: #8E8E8E;
+}
+
+.table-cell:filled:hover {
+    -fx-background-color: #2B2B2B;
+    -fx-text-fill: #FFFFFF;
+}
+
+
+
+/* scrollpane */
+ScrollPane {
+	-fx-border-color: #2B2B2B;
+	-fx-background-color: #2B2B2B;
+	-fx-border: #2B2B2B;
+	-fx-background: #2B2B2B;
+}
+
+/* styling specific pieces of the scrollbar */
+.scroll-bar:hover {
+	-fx-effect: dropshadow(gaussian, #000000, 5, 0, 1, 2);
+}
+
+.scroll-bar:pressed {
+	-fx-effect: dropshadow(gaussian, #000000, 5, 0, 1, 2);
+}
+
+.scroll-bar .track {
+	-fx-background-color: #5E5E5E;
+	-fx-background-radius: 0,0,0,0;
+}
+
+.scroll-bar .thumb:pressed {
+    -fx-background-color: #9F9F9F;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+	-fx-background-color: #C7C7C7;
+	-fx-background-insets: 0,0,0;
+	-fx-background-radius: 0,0,0,0;
+}
+
+.scroll-bar .increment-button:pressed,
+.scroll-bar .decrement-button:pressed {
+	-fx-background-color: #9F9F9F;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #C7C7C7;
+	-fx-background-insets: 0,0,0;
+	-fx-background-radius: 0,0,0,0;
+}
+
+
+
+/* label */
+#label-vbox {
+	-fx-background-color: #2B2B2B;
+}
+
+.label {
+    -fx-text-fill: #E8E8E8;
+    -fx-font-size: 1.1em;
+}
+
+#bold-label {
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-font-size: 1.5em;
+}
+
+#bold-label:hover {
+    -fx-text-fill: #9F9F9F;
+}
+
+#tiny-label {
+    -fx-font-style: italic;
+    -fx-font-size: .85em;
+}
+
+#tiny-label:hover {
+	-fx-text-fill: #9F9F9F;
+}
+
+#small-label {
+    -fx-font-style: italic;
+    -fx-font-size: .95em;
+}
+
+#smallish-label {
+    -fx-font-size: .96em;
+}
+
+#news-label {
+	-fx-font-size: 1.2em; 
+	-fx-font-style: italic; 
+	-fx-font-weight: bold;
+}
+
+
+
+/* button */
+.button {
+    -fx-background-color: #5E5E5E;
+    -fx-font-family: Arial;
+    -fx-text-size: 1.1em;
+    -fx-font-weight: bold;
+    -fx-text-fill: WHITE;
+    -fx-padding: 10,20,10,20;
+    -fx-background-radius: 0,0,0,0;
+}
+
+.button:hover {
+	-fx-background-color: #2B2B2B;
+}
+
+#button-special:hover {
+	-fx-background-color: #8E8E8E;
+}
+
+
+
+/* BUTTON HIGHLIGHTING */
+/*
+.button:focused {
+	-fx-background-color: #8E8E8E;
+}
+
+.button:pressed {
+	-fx-background-color: #8E8E8E;
+}
+
+.button:pressed:focused{
+	-fx-background-color: #8E8E8E;
+}*/
+
+
+/* no dot for VBox 
+VBox {
+	-fx-background-color: #2C003A;
+}*/
+
+
+/*IN SCROLLPANE-fx-focus-color: #383838; 
+	-fx-faint-focus-color: #383838;*/
+	
+/*
+.persistent-prompt:focused {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
+}
+.no-prompt {
+    -fx-prompt-text-fill: transparent !important;
+}
+*/
