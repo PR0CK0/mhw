@@ -5,3 +5,5 @@ as well as the ability to create one's own custom armor set.
 
 In order to get this to run, you must download the included .jar files in the lib folder. Set them up in your classpath. I used
 the Eclipse IDE. Also, you need to enable a CSS/HTML editor extension in your IDE if you want to be able to use the stylesheet...
+
+The database is NOT public, and this project is for the class Database and File Systems taught by Richard S. Stansbury (https://github.com/richss). 
