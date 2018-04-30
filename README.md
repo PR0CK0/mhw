@@ -1,5 +1,5 @@
-# mhw
-Monster Hunter: World Player Support Project is an application written in Java and SQL, using the JDBC framework. 
+# Monster Hunter World : Player Support Project
+MHW : PSP is an application written in Java and SQL, using the JDBC framework. 
 It provides the functionality to search all items, armor, charms, weapons, palico equipment pieces, monsters and quests in the game, 
 as well as the ability to create one's own custom armor set.
 
