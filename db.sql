@@ -2,7 +2,7 @@
 -- version 4.7.1
 -- https://www.phpmyadmin.net/
 --
--- Host: sql9.freemysqlhosting.net
+-- Host: 
 -- Generation Time: Apr 16, 2018 at 07:49 PM
 -- Server version: 5.5.58-0ubuntu0.14.04.1
 -- PHP Version: 7.0.28-0ubuntu0.16.04.1
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `sql9227664`
+-- Database: `db`
 --
 
 -- --------------------------------------------------------
